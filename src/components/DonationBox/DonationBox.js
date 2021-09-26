@@ -15,8 +15,13 @@ const DonationBox = () => {
     },[]);
     // event handler 
     const eventHandler = (donar) =>{
-        const newDonarsCart = [...cart, donar];
-        setCart(newDonarsCart);
+        if(!cart.includes(donar)){
+            const newDonarsCart = [...cart, donar];
+            setCart(newDonarsCart);
+        } else {
+            alert('Already added The Donar');
+        }
+        
        // console.log(donar);
     }
 
