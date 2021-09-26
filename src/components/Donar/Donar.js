@@ -16,7 +16,7 @@ const Donar = (props) => {
                             </div>
                             <div className="front__text">
                                 <h3 className="front__text-header">{name}</h3>
-                                <p className="front__text-para"><i className="fas fa-map-marker-alt front-icons"></i>{city}
+                                <p className="front__text-para"><i className="fas fa-map-marker-alt front-icons"></i> {city}
                                 </p>
 
                                 <div className="actions">
@@ -33,7 +33,8 @@ const Donar = (props) => {
                                             </span>
                                         </h2>
                                     </div>
-                                    <button onClick={()=> props.eventHandle(props.donar)} className="front__text-hover">Add Donation</button>
+                                    <button onClick={()=> props.eventHandle(props.donar)} className="front__text-hover"><i class="fas fa-shopping-cart">
+                                        </i> Add Donation</button>
                                 </div>
                             </div>
                         </div>

@@ -8,9 +8,7 @@ const Header = () => {
             <div className="row">
                 <div className="col-lg-7 mx-auto">
                     <h2>Orphanage Donation Management</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolorem saepe voluptate
-                        commodinatus nesciunt, nostrum architecto possimus eius reiciendis. Vero eos tenetur deserunt
-                        dolores
+                    <p>We are a charity supporting widows and orphans with a focus on sustainability, our programmes give support to the neediest around the world. Orphans in Need believe that every child, everywhere, has the right to a happy and healthy life. This means we work hard to find solutions that are sustainable.
                     </p>
                     <h3>Total Budget: 10000$</h3>
                 </div>
