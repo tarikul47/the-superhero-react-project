@@ -1,0 +1,118 @@
+.outer-div, .inner-div {
+    height: 450px;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.inner-div {
+    margin: 0 auto;
+    border-radius: 5px;
+    font-weight: 400;
+    color: #071011;
+    font-size: 1rem;
+    text-align: center;
+}
+.front {
+    cursor: pointer;
+    height: 100%;
+    background: #fff;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.front__bkg-photo {
+    position: relative;
+    height: 150px;
+    width: 300px;
+    background: url("https://images.unsplash.com/photo-1511207538754-e8555f2bc187?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88672068827eaeeab540f584b883cc66&auto=format&fit=crop&w=1164&q=80") no-repeat;
+    background-size: cover;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.front__face-photo {
+    position: relative;
+    top: -60px;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    /* background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/156905/profile/profile-512.jpg?1530296477") no-repeat; */
+    /* background-size: contain; */
+    overflow: hidden;
+}
+.front__face-photo img {
+    width: 120px;
+    height: 120px;
+}
+.front__text {
+    position: relative;
+    top: -55px;
+    margin: 0 auto;
+    font-family: "Montserrat";
+    font-size: 18px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.front__text .front__text-header {
+    font-weight: 700;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.front__text-hover {
+    position: relative;
+    top: 10px;
+    font-size: 10px;
+    color: tomato;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    border: 2px solid tomato;
+    padding: 8px 15px;
+    border-radius: 30px;
+    background: tomato;
+    color: #fff;
+}
+.actions {
+    padding: 0 2rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    order: 99;
+}
+.actions .meta-info {
+    padding: 0;
+    display: flex;
+}
+.actions .meta-info h2 {
+    text-align: center;
+    width: 50%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.actions .meta-info h2 .information {
+    text-decoration: none;
+    font-size: 19px;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.8rem;
+    transition: background-color 100ms ease-in-out;
+}
+.actions .meta-info h2 .information span {
+    color: #1c9eff;
+    font-weight: bold;
+    transform-origin: bottom;
+    transition: color 100ms ease-in-out;
+}
+.actions .meta-info h2 .information small {
+    color: #afafaf;
+    font-size: 0.85rem;
+    font-weight: normal;
+}

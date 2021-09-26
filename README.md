@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Orphanage Donation Management
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +68,60 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+Assingment Requirments
+
+1. Card dekate hobe 
+
+2. Data dekate hobe in card = 3 column 
+
+3. Make fake data and minimu 5 fields and must one number 
+
+4. Must an image 
+
+5. Fake data must be diffrent [ super hero, sportsman, electorices we have to skip]
+    #. Writer combination slelected 
+    #. Social welfar commitiee
+    #. Other movie star 
+    #. School somiti
+    #. Comapany somithi 
+    #. Ploice 
+    #. design has to diffrent 
+    #. Header has to set [ Website name and total budget ]
+
+6. Add to cart when click then cart will show People added count with name and total salary 
+
+7. Folder structure 
+
+8. fake data store in public folder with images 
+
+9. Code oragnaized 
+
+10. Not responsive 
+
+11. css pure / bootstarp 
+
+12. animation not need 
+
+13. Buy button not need/ or  we can set
+
+14. page background not need mandatory 
+
+15. add to card 1 icon must need
+
+bonus mark 
+
+1. destructing mus use 
+
+2. minimum iocn use 1 ta 
+
+3. component name and commenting 
+
+4. Default readme file not to keep 
+
+    #. Project name big size 
+    #. website deploay link set 
+    # 3 bultepoint to explian what I use in project 
